@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatar_url"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/xin" />
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:id="@+id/name"
+            android:text="hfhdjf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/content"
+            android:text="11134dfsffd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             />
+
+        <ImageView
+            android:id="@+id/url_list_url"
+            android:background="#FFFFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ll2"
+        android:src="@mipmap/xiao"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:text="@string/funny1"
+        android:layout_toRightOf="@id/tv1"
+        android:layout_below="@id/ll2"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@id/tv1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="1dp"
+        android:background="#bfbfbfbf"/>
+<RelativeLayout
+    android:layout_below="@id/view1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ku"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="5dp"
+         />
+    <TextView
+        android:layout_toRightOf="@id/tv2"
+        android:paddingTop="20dp"
+        android:text="@string/nofunny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+</RelativeLayout>

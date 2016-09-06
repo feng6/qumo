@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#506495ED">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="被你发现了，吼吼吼，那就来玩会吧"
+        android:textColor="#D2691E" />
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:paddingTop="150dp"
+        android:layout_below="@id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_bbwzyy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></EditText>
+
+        <Button
+            android:id="@+id/btn_bbwzyy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播报文字语音"></Button>
+    </LinearLayout>
+<ImageView
+    android:id="@+id/image"
+    android:src="@mipmap/back1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</RelativeLayout>

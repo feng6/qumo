@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--唯美头部-->
+    <ImageView
+        android:id="@+id/image_head"
+        android:src="@mipmap/ggf"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/back"
+            android:layout_width="10dp"
+            android:layout_height="10dp" />
+        <ImageView
+            android:src="@mipmap/back"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+        <ImageView
+            android:src="@mipmap/back1"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </ViewFlipper>
+
+    <TextView
+        android:id="@+id/title_head"
+        android:text="@string/wenzi"
+        android:layout_alignBottom="@id/image_head"
+        android:paddingBottom="5dp"
+        android:textSize="10sp"
+        android:textColor="#80ff00ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

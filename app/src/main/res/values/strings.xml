@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">qumo</string>
+    <string name="fail">网络繁忙，请稍后再试！</string>
+    <string name="haha">哈哈！没点着，呀吼吼</string>
+    <string name="hehe">呀，好厉害！一下就点着了</string>
+    <string name="rc_send">发送</string>
+    <!--趣事tablayout的列表-->
+    <string name="doum">表白N+1</string>
+    <string name="godess">女神</string>
+    <string name="funny">好笑不</string>
+    <string name="conntation">神段</string>
+    <string name="movietrailer">情感AVI</string>
+    <!--好笑不-->
+    <string name="funny1">好好笑</string>
+    <string name="nofunny">不好笑</string>
+
+    <!--主页RadioButton按钮-->
+    <string name="qushi">趣事</string>
+    <string name="zhibo">直播</string>
+    <string name="weimei">唯美</string>
+    <string name="xiaoxi">消息</string>
+    <string name="wenzi">生活的唯美只有愉悦沉静的眼能看到！</string>
+
+
+</resources>
